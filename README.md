@@ -23,12 +23,12 @@ Para este projeto, foram utilizadas as seguintes tecnologias e recursos:
 
 - [ReactJs](https://pt-br.reactjs.org/)
 - [Typescript](https://www.typescriptlang.org/)
+- [React Testing Library](https://testing-library.com/)
 - [TailwindCSS](https://tailwindcss.com/)
+- [Jest](https://jestjs.io/pt-BR/)
 - [Prettier](https://prettier.io/)
 - [ESLint](https://eslint.org/)
 - [Husky](https://typicode.github.io/husky/#/)
-- [Jest](https://jestjs.io/pt-BR/)
-- [React Testing Library](https://testing-library.com/)
 - [Lint-Staged](https://github.com/okonet/lint-staged#readme)
 
 ## 🚀 Como executar
@@ -57,9 +57,39 @@ $ yarn start
 
 O app estará disponível no seu browser pelo endereço http://localhost:3000.
 
-## 💻 Projeto
-
 Este template destina-se a permitir a criação inicial de projetos que utilizem ReactJS, Typescript, TailwindCSS e Jest.
+
+## ⌨️ Comandos
+
+```bash
+$ yarn build
+```
+Para gerar a aplicação para ser enviada para produção
+
+```bash
+$ yarn lint-code
+```
+Executa o Prettier nos arquivos .ts{x} e .js{x} que estiverem na pasta src do projeto
+
+```bash
+$ yarn lint-code:fix
+```
+Tenta corrigir problemas de padronização nos arquivos .ts{x} e .js{x} que estiverem na pasta src do projeto.
+
+```bash
+$ yarn lint-styles
+```
+Executa o Stylelint nos arquivos .css que estiverem na pasta src do projeto
+
+```bash
+$ yarn lint-styles:fix
+```
+Tenta corrigir problemas de padronização nos arquivos .css que estiverem na pasta src do projeto.
+
+```bash
+$ yarn test
+```
+Executa o Jest nos testes existentes na pasta src do projeto.
 
 ## 📝 Licença
 

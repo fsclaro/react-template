@@ -1,8 +1,7 @@
-<p align="center">
-<font size="5">Template for Project with</font><br/>
-<font size="4">ReactJs, Typescript, TailwindCSS and Jest</font>
-</p>
-
+<h1 align="center">
+A ReactJs, Typescript, TailwindCSS and Jest<br />for WEB Projects
+</h1>
+<br />
 <p align="center">
   <img alt="Preview" src="./.github/img/screenshot1.png" width="900px">
 </p>

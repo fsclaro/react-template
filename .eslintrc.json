@@ -30,6 +30,7 @@
     "sourceType": "module",
     "project": "./tsconfig.json"
   },
+  "ignorePatterns": ["**/*.css"],
   "rules": {
     "linebreak-style": "off",
     "prettier/prettier": [

@@ -27,7 +27,7 @@
   },
   "lint-staged": {
     "src/**/*": [
-      "yarn eslint --fix 'src/**/*.{ts,tsx,js,jsx}'"
+      "yarn eslint --fix --ignore-pattern '!.css' 'src/**/*.{ts,tsx,js,jsx}'"
     ]
   },
   "husky": {
